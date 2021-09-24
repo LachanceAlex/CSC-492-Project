@@ -10,7 +10,7 @@ Workouts: an example could be a climbers upper body set
 -	10 reps wide gripped pull ups( 4 sets)
 
 
-Users: Any gender, any age, actively working out with a few specific performance goals who want find some difficulty planning and sticking to workout routines.
+Users: Any gender, any age teen and older, actively working out with a few specific performance goals who want find some difficulty planning and sticking to workout routines.
 
 This will be a workout routine planner by day. For example, when you click Monday -> the app would show you what you currently have set, you could then edit and create new workouts.
 The app should provide some suggestions to the workouts to provide some level of progressive overload. For example, if for the past 2 weeks someone has been doing  the workout above it could suggest:
