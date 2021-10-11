@@ -1,6 +1,7 @@
 # CSC-492-Project
 Problem: It can be difficult to plan and accurately track your fitness goals
 -	Our application will help people track and plan their workouts routines by date and provide suggestions to apply progressive overload.
+-	Shit
 
 
 Workouts: an example could be a basic climbers upper body routine
