@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+    <title>CSC-492-Project</title>
+    <meta name="generator" content="Jekyll v3.9.0" />
+    <meta property="og:title" content="CSC-492-Project" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="https://lachancealex.github.io/CSC-492-Project/" />
+    <meta property="og:url" content="https://lachancealex.github.io/CSC-492-Project/" />
+    <meta property="og:site_name" content="CSC-492-Project" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="CSC-492-Project" />
+    <script type="application/ld+json">
+        {
+            "headline": "CSC-492-Project",
+            "url": "https://lachancealex.github.io/CSC-492-Project/",
+            "@type": "WebSite",
+            "name": "CSC-492-Project",
+            "@context": "https://schema.org"
+        }
+    </script>
+    <!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/CSC-492-Project/assets/css/style.css?v=0d3abd2d6169f6b82d0ba32c465a5796fadf071b">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+    <!-- Setup Google Analytics -->
+
+
+
+    <!-- You can set your favicon here -->
+    <!-- link rel="shortcut icon" type="image/x-icon" href="/CSC-492-Project/favicon.ico" -->
+
+    <!-- end custom head snippets -->
+
+</head>
+
+<body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+        <h1 class="project-name">CSC-492-Project</h1>
+        <h2 class="project-tagline"></h2>
+
+        <a href="https://github.com/LachanceAlex/CSC-492-Project" class="btn">View on GitHub</a>
+
+    </header>
+
+    <main id="content" class="main-content" role="main">
+        <h1 id="csc-492-project">CSC-492-Project</h1>
+        <h2>
+
+            <p>Problem: It can be difficult to plan and accurately track your fitness goals</p>
+        </h2>
+
+        <h3>
+            <p>Users: User 1</p>
+        </h3>
+
+        <p>Name: Larry</p>
+        <p>Age: 32</p>
+        <p>Occupation: Accountant</p>
+        <p>Background: Lives in Lowell, Massachusetts Social Man Has a wife and three children. Studied at Baruch College in New York </p>
+        <p>Frustrations: Work Having to commute 90 minutes every day Gaining weight during covid </p>
+        <p>Bio: Larry lives with his wife Sarah, and his three children: Mike, Jackie, and Harrison. His passions are the outdoors; he enjoys hiking and camping particularly. He enjoys time with his friends and family. His favorite hobby is collecting baseballs
+            and baseball cards. He loves watching red sox and patriots games and he has Red Sox season tickets. His favorite TV show is the Sopranos.</p>
+
+        <h3>Story Board: Larry</h3>
+        <p>Larry and his family love hiking but during covid Larry gained weight due to his local gym closing down. Larry has been struggling hiking with his family and has to cut hikes short because he can no longer handle long hikes and has been having
+            difficulty establishing a routine working out. Larry uses the fitness calendar app to solve his routine difficulties. Larry establishes his daily workouts on the calendar so he will not forget, each detailing what he should be doing. Furthermore,
+            Larry has adopted a better diet to help in his weight loss process and has developed a schedule using the app of what he is eating each day, monitoring his calorie intake as well. </p>
+        <h3>
+            <p>Users: User 2</p>
+        </h3>
+
+        <p>Name: Derek</p>
+        <p>Age: 29</p>
+        <p>Occupation: Kitchen Staff</p>
+        <p>Background:
+            <ul>
+                <li>- Lives in Greenville, South Carolina</li>
+                <li>- Lives on their own in an apartment outside the city</li>
+                <li>- Loves to boulder indoors and in nature.</li>
+                <li>- Fairly knowledgeable in regards to fitness for climbing</li>
+            </ul>
+        </p>
+        <p>Frustrations:
+            <ul>
+                <li>- Fears getting injured by not getting proper rest</li>
+                <li>- Driven to grind out their workouts but again concerned with injuries</li>
+                <li>- Lack of organization with their workouts</li>
+            </ul>
+        </p>
+        <p>Bio: Derek is a casual climber who focus on bouldering. He recently injured his shoulder by bouldering at a level beyond his own strength and is looking to gain practical strength to avoid further injuries. Derek has some difficulty organizing
+            his workouts and targeting specific workouts and body parts. He often finds himself not really knowing what to focus on in the gym and typically rotates between the same 4 workouts. Derek is looking for a way to organize his workouts and track
+            his progress and implement progressive overload. </p>
+        <h3>Story Board: Derek</h3>
+        <p>
+          <img src= "https://photos.google.com/u/1/photo/AF1QipPAtPwUilhaz0MO0Nky_H2zxRrGyX0bOWJgSHYy"></img>
+          <img src= "https://photos.google.com/u/1/search/_tra_/photo/AF1QipMZALobq6CED7Fbo6bk8Amh1fCVRDkIceCnrNOy"> </img>
+        </p>
+        <p>
+
+        </p>
+
+        <h2></h2>
+        <ul>
+            
+        <footer class="site-footer">
+            
+
+            <span class="site-footer-owner"><a href="https://github.com/LachanceAlex/CSC-492-Project">CSC-492-Project</a> is maintained by <a href="https://github.com/LachanceAlex">LachanceAlex</a>.</span>
+
+            <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        </footer>
+    </main>
+</body>
+
+</html>
