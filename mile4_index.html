@@ -206,57 +206,89 @@
             <p>
               <ol type = "1">
                 <li>
-                  P1, P2 and P3 all ran into this particular problem. The Workout Selector interface is <br>
-                  ambiguous. It is  not clear by information present on the UI that workouts are user specific <br>
+                  P1, P2 and P3 all ran into this particular problem. The Workout Selector interface is 
+                  ambiguous. It is  not clear by information present on the UI that workouts are user specific
                   and these workouts are added only through the *day selected* UI. (High)
-                  <br>
+                  
+                <ul><strong>Solution:</strong> We will need to create a workouts list sub-page and a clear User
+                  profile screen. I have no idea why I thought this could be all back-end stuff. This list should be acessible from 
+                  both the workout selector screen and the day planner screen 
+                </ul>
+        
                 </li>
                 <li>
-                  On the welcome page units of measurement are either not present at all or unclear. <br>
+                  On the welcome page units of measurement are either not present at all or unclear.
                   180 stones = 2520 pounds. P2 caught this and a few typos (cancle -> cancel). (High)
-                  <br>
+                  <ul><strong>Solution:</strong> We should make sure to make the units of measurment clear on the side of
+                    the textarea entry. It also may be to our favor to make the units selectable with a dropdown menu (kg, pounds)
+                  </ul>
                 </li>
+
                 <li>
-                  Not explicitly stated problem but all 3 reviewers needed to clarify as that the “diet” <br>
-                  button leads to nutritional information lookup (given task of checking nutrition <br>
+                  Not explicitly stated problem but all 3 reviewers needed to clarify as that the “diet”
+                  button leads to nutritional information lookup (given task of checking nutrition
                   information of Oatmeal). This tells me it is clearly ambiguous. (High)
-                  <br>
+                  <ul><strong>Solution:</strong> This seems to a be a probablem over all with the UI. Things are not clearly labeled.
+                    This one case is an easy fix of changing the button from "diet" to "Nutrition Lookup"
+                  </ul>
                 </li>
+
                 <li>
-                  P3 noticed that the calendar button is not clear as to where the user should click. <br>
+                  P3 noticed that the calendar button is not clear as to where the user should click.
                   At first interaction they expected the icon to be a calendar with clickable *day blocks*. (High)
-                  <br>
+                  <ul><strong>Solution:</strong> Another easy enough fix, the 2d buttons on the sidebar should look more like buttons rather
+                    than 2d pictures.
+                  </ul>
+                  
                 </li>
+
                 <li>
-                  The core functionality of creating a workout and meal plan for an upcoming needs to be <br>
+                  The core functionality of creating a workout and meal plan for an upcoming needs to be
                   directly accessible from the main page. P3 noticed this. (High)
-                  <br>
+                  <ul><strong>Solution:</strong> Placing a small interface to the right of "today's" plan window that would allow
+                    the user to jump to a upcoming date's plan (perhaps tomorrow?) 
+                  </ul>
+
                 </li>
                 <li>
                   The progress report submit buttons should be compiled into 1 button. P1 and P2 ran into this issue (medium).
-                  <br>
+                  <ul><strong>Solution:</strong> The problem stated is kind of the solution in this case. Just need to make the 2 buttons 1.
+                  </ul>
                 </li>
+
                 <li>
-                  P3 noticed the *calorie restriction* page was kind of bloated. Important text did not stand out. I believe <br>
+                  P3 noticed the *calorie restriction* page was kind of bloated. Important text did not stand out. I believe 
                   by P1’s body language and time spent on this page initially they felt similarly. (medium)
-                  <br>
+                  <ul><strong>Solution:</strong> We will better highlight the most important information on this page such as the user's
+                    specific caloric recommendations.
+                  </ul>
                 </li>
+
                 <li>
                   Nutrition information lookup needs an autofill and submit button. P1 and P3 caught this problem. (medium).
-                  <br>
+                  <ul><strong>Solution:</strong> This again is a clear problem with a clear solutions. We will add a submit arrow to 
+                    the right of the textbox and be sure to add autofill functionality like our capital game. 
+                  </ul>
                 </li>
+
                 <li>
                   Welcome page “activity level”  label for entry is unclear. P2 noticed this. (medium)
-                  <br>
+                  <ul><strong>Solution:</strong> We will change "activity level" to "level of activity" to make what we are 
+                    asking for more clear. 
+                  </ul>
                 </li>
+
                 <li>
                   P1 noticed Pie chart in Progress Report is weirdly off center. (Low)
-                  <br>
+                  <ul><strong>Solution:</strong> We will simply center the Pie chart. 
+                  </ul>
                 </li>
+
                 <li>
                   I missed who and couldn’t find in recording but I’m pretty sure one reviewer felt it’s not obvious that you <br>
                   should click a day on the calendar page to edit a plan for. (Low)
-                  <br>
+                  <ul><strong>Solution:</strong> We will add a message to the user on the top left of the page writing "select a day"
+                  </ul>
                 </li>
               </ol>
 
