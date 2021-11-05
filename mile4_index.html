@@ -68,9 +68,9 @@
         </h3>
           <p>
             <ul>
-                <li> <strong>Paint 3D</strong> - Used so I could create icons for the sidebar and a few other assets. Used this because it is familiar with it and
-                   <br>there is no annoying auto-correction (for lining up shapes and such) all in all Paint 3D is pretty free form 
-                   <br>so terrible for lining things up but great for creating more “artistic” elements.</li>
+                <li> <strong>Paint 3D</strong> - Used so I could create icons for the sidebar and a few other assets. I am also familiar with it and
+                   there is no annoying auto-correction (for lining up shapes and such) all in all Paint 3D is pretty free form 
+                   so terrible for lining things up but great for creating more “artistic” elements.</li>
                 <p></p>
 
                 <li> <strong>MockPlus</strong> - I used this because I was familiar with it from creating mock up game screens.
@@ -79,9 +79,9 @@
                    icons (Dropdown, scrollbar, home) and much more.</li>
                 <p></p>
                 <li><strong>Invision</strong> - Invision studio in my opinion was pretty limited when it came 
-                  to creating mockup screens but was were it shined over mockplus was it’s actual previewing 
-                  project feature. This is a paid for feature in MockPlus so its very cool that Invision
-                  provides it for free, this worked well.</li>
+                  to creating mockup screens but where it shined over MockPlus was flow previewing
+                  feature. This is a paid for feature in MockPlus so its very cool that Invision
+                  provides it for free. This worked well.</li>
                 
             </ul>
         </p>
@@ -94,8 +94,8 @@
         <p>
           <ul>
             <li>
-              Actual Calorie calculations as this would require some back end functionality that's not available.
-              in any of the prototyping tools. (calculations given in prototype are accurate though for hard-coded data)
+              Actual Calorie calculations were omitted as this would require some back end functionality that is not available
+              in any of the prototyping tools used. (calculations given in prototype are accurate for hard-coded data)
               <p></p>
             </li>
             <li>
@@ -104,22 +104,22 @@
               <p></p>
             </li>
             <li>
-              Nutrition information lookup is not actually functional this will require a substantial database
+              Nutrition information lookup is not actually functional this will require a substantial database.
               <p></p>
             </li>
             <li>
-              Today’s” Workout and Plan is omitted because it should look pretty similar to the “day selected”
-               information (see later in presentation)
+              "Today’s” workout and meal plan is omitted because it should look pretty similar to the “day selected”
+               information. After reviewing it, this was a clear oversight and hard-coded data should have been present.
               <p></p>
             </li>
             <li>
-              The user can only select November 1st to plan, multiple days would not present or test any new functionality
+              The user can only select November 1st to plan as being able to select multiple days would not present or test any new functionality.
               <p></p>
             </li>
             <li>
               Not a super thought out choice but I did not add the actual user list of pre-selected workouts as I
-              initially thought it would be clear in the back-end (this was not the case at all, see later in presentation)
-               
+              initially thought it would be clear in the back-end (this did not pan out at all).
+     
             </li>
           </ul>
         </p>
@@ -129,7 +129,7 @@
         </h3>
         <p>
           <ul>
-            <li><strong>Task 1:</strong>The user should be able to enter necessary biometric information and weight
+            <li><strong>Task 1:</strong> The user should be able to enter necessary biometric information and weight
               loss/gain goals. The web app should produce a plan with caloric restrictions stated and projected weight 
               loss/gain if the caloric restriction/goal is met.<br><br>
               Progress on this should be measured accessible to user by using user input (later weight and calories)
@@ -141,8 +141,8 @@
             <p></p>
             </li>
             <li>
-              <strong>Task 3:</strong> The User should be able to look up a given day and customize a workout <br>
-              routine (using workouts from Task 2) and meal plan for that day. The user should have access to the current day at all time on the main page.
+              <strong>Task 3:</strong> The User should be able to look up a given day and customize a workout
+              routine (using workouts from Task 2) and meal plan for that day. The user should have access to the current day at all times on the main page.
             </li>
           </ul>
         </p>
@@ -211,30 +211,30 @@
                 <li>
                   P1, P2 and P3 all ran into this particular problem. The Workout Selector interface is 
                   ambiguous. It is  not clear by information present on the UI that workouts are user specific
-                  and these workouts are added only through the *day selected* UI. (High)
+                  and these workouts are added to a plan only through the *day selected* UI. (High)
                   <p></p>
-                <ul><strong>Solution:</strong> We will need to create a workouts list sub-page and a clear User
+                <ul><strong>Solution:</strong> We will need to create a workouts list sub-page and a clear user
                   profile screen. I have no idea why I thought this could be all back-end stuff. This list should be acessible from 
-                  both the workout selector screen and the day planner screen 
+                  both the workout selector screen and the day planner screen.
                 </ul>
                 <p></p>
                 </li>
                 <li>
-                  On the welcome page units of measurement are either not present at all or unclear.
+                  On the welcome page units of measurement are not clear or not present.
                   180 stones = 2520 pounds. P2 caught this and a few typos (cancle -> cancel). (High)
                     <p></p>
-                  <ul><strong>Solution:</strong> We should make sure to make the units of measurment clear on the side of
-                    the textarea entry. It also may be to our favor to make the units selectable with a dropdown menu (kg, pounds)
+                  <ul><strong>Solution:</strong> We should make sure to make the units of measurment clear on the right side of
+                    the text area entry. It also may be to our favor to make the units selectable with a dropdown menu (kg, pounds).
                   </ul>
                     <p></p>
                 </li>
 
                 <li>
-                  Not explicitly stated problem but all 3 reviewers needed to clarify as that the “diet”
-                  button leads to nutritional information lookup (given task of checking nutrition
+                  Not an explicitly stated problem but all 3 reviewers needed to clarify that the “diet”
+                  button leads to nutritional information lookup (given the task of checking nutrition
                   information of Oatmeal). This tells me it is clearly ambiguous. (High)
                   <p></p>
-                  <ul><strong>Solution:</strong> This seems to a be a probablem over all with the UI. Things are not clearly labeled.
+                  <ul><strong>Solution:</strong> This seems to a be a problem over all with the UI. Things are not clearly labeled.
                     This one case is an easy fix of changing the button from "diet" to "Nutrition Lookup"
                   </ul>
                   <p></p>
@@ -251,11 +251,11 @@
                 </li>
 
                 <li>
-                  The core functionality of creating a workout and meal plan for an upcoming needs to be
+                  The core functionality of creating a workout and meal plan for an upcoming day needs to be
                   directly accessible from the main page. P3 noticed this. (High)
                   <p></p>
                   <ul><strong>Solution:</strong> Placing a small interface to the right of "today's" plan window that would allow
-                    the user to jump to a upcoming date's plan (perhaps tomorrow?) 
+                    the user to jump to an upcoming date's plan (perhaps tomorrow?) 
                   </ul>
                   <p></p>
                 </li>
@@ -269,7 +269,7 @@
 
                 <li>
                   P3 noticed the *calorie restriction* page was kind of bloated. Important text did not stand out. I believe 
-                  by P1’s body language and time spent on this page initially they felt similarly. (medium)
+                  P1 and P2's body language and time spent on this page suggest they felt similarly. (medium)
                   <p></p>
                   <ul><strong>Solution:</strong> We will better highlight the most important information on this page such as the user's
                     specific caloric recommendations.
@@ -280,7 +280,7 @@
                 <li>
                   Nutrition information lookup needs an autofill and submit button. P1 and P3 caught this problem. (medium).
                   <p></p>
-                  <ul><strong>Solution:</strong> This again is a clear problem with a clear solutions. We will add a submit arrow to 
+                  <ul><strong>Solution:</strong> This again is a clear problem with a clear solution. We will add a submit arrow to 
                     the right of the textbox and be sure to add autofill functionality like our capital game. 
                   </ul>
                   <p></p>
@@ -298,7 +298,7 @@
                 <li>
                   P1 noticed Pie chart in Progress Report is weirdly off center. (Low)
                   <p></p>  
-                  <ul><strong>Solution:</strong>We will simply center the Pie chart. 
+                  <ul><strong>Solution:</strong> We will simply center the Pie chart. 
                   </ul>
                   <p></p>
                 </li>
@@ -307,13 +307,13 @@
                   I missed who and couldn’t find in recording but I’m pretty sure one reviewer felt it’s not obvious that you
                   should click a day on the calendar page to edit a plan for. (Low)
                   <p></p>
-                  <ul><strong>Solution:</strong> We will add a message to the user on the top left of the page writing "select a day"
+                  <ul><strong>Solution:</strong> We will add a "select a day" message to the top left of the calandar.
                   </ul>
                 </li>
               </ol>
-
+            
             </p>
-        
+<h4><p> Contributions to all of Milestone 4 were done by Evan Mowry. </p></h4> 
         
         <ul>
             
